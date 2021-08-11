@@ -35,7 +35,7 @@ body {
 #image {
    max-width: 100%;
    display  : block;
-   height   : 400px;
+   height   : auto;
    margin   : 0 auto;
 }
 
@@ -45,8 +45,8 @@ body {
 }
 
 #tribute-info {
-   margin     : 10px auto;
-   width      : 60%;
+   margin: 10px auto;
+   width : 60%;
 }
 
 h2 {
@@ -71,8 +71,14 @@ p {
    font-weight: bold;
 }
 
-@media (max-width: 800px) {
-   #image {
-      height: auto;
+@media (max-width: 450px) {
+
+   body {
+      width: 100%;
+   }
+
+   #tribute-info {
+      padding: 10px;
+      width  : 100%;
    }
 }
