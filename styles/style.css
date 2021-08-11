@@ -1,0 +1,78 @@
+* {
+   margin    : 0;
+   padding   : 0;
+   box-sizing: border-box;
+}
+
+html {
+   font-size  : 62.5%;
+   font-family: 'Times New Roman', Times, serif;
+}
+
+body {
+   font-size       : 1.8rem;
+   line-height     : 1.5;
+   text-align      : center;
+   color           : #333;
+   background-color: #eee;
+   width           : 80%;
+   margin          : 0 auto;
+}
+
+#title {
+   font-family: 'Roboto', sans-serif;
+   font-size  : 3.5rem;
+   line-height: 1.2;
+   margin     : 20px 0;
+}
+
+#img-div {
+   margin          : 30px;
+   padding         : 10px;
+   background-color: #fff;
+}
+
+#image {
+   max-width: 100%;
+   display  : block;
+   height   : 400px;
+   margin   : 0 auto;
+}
+
+#img-caption {
+   margin   : 15px 0 5px 0;
+   font-size: 1.4rem;
+}
+
+#tribute-info {
+   margin     : 10px auto;
+   width      : 60%;
+}
+
+h2 {
+   margin     : 20px 0;
+   display    : block;
+   font-size  : 2.5rem;
+   font-weight: bold;
+   font-family: 'Roboto', sans-serif;
+}
+
+p {
+   text-align : justify;
+   font-weight: normal;
+}
+
+.curious-fact {
+   margin          : 20px 0;
+   background-color: #fff;
+}
+
+.menction {
+   font-weight: bold;
+}
+
+@media (max-width: 800px) {
+   #image {
+      height: auto;
+   }
+}
