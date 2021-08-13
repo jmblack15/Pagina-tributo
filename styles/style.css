@@ -15,6 +15,10 @@ body {
    text-align      : center;
    color           : #333;
    background-color: #eee;
+   
+}
+
+main{
    width           : 80%;
    margin          : 0 auto;
 }
@@ -62,6 +66,11 @@ p {
    font-weight: normal;
 }
 
+.img-marriage {
+   width : 300px;
+   margin: 30px auto 0 auto;
+}
+
 .curious-fact {
    margin          : 20px 0;
    background-color: #fff;
@@ -70,6 +79,24 @@ p {
 .menction {
    font-weight: bold;
 }
+
+.img-Solvay-Conference {
+   max-width: 100%;
+   display  : block;
+   height   : auto;
+   margin   : 0 auto;
+}
+
+footer {
+   display: flex;
+   flex-direction: row;
+   flex-wrap: wrap;
+   align-content: center;
+   justify-content: space-evenly;
+   height: 70px;
+   background-color: #fff;
+}
+
 
 @media (max-width: 450px) {
 
