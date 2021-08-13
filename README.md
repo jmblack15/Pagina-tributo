@@ -2,7 +2,7 @@
 
 bibliography and tribute page dedicated to Marie curie 
 
-can you see here [aquí](https://jmblack15.github.io/Tribute-Page/).
+can you see [here](https://jmblack15.github.io/Tribute-Page/).
 
 ## why this page?
 
