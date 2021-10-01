@@ -1,111 +1,118 @@
 * {
-   margin    : 0;
-   padding   : 0;
-   box-sizing: border-box;
+  margin    : 0;
+  padding   : 0;
+  box-sizing: border-box;
 }
 
 html {
-   font-size  : 62.5%;
-   font-family: 'Times New Roman', Times, serif;
+  font-size  : 62.5%;
+  font-family: 'Times New Roman', Times, serif;
 }
 
 body {
-   font-size       : 1.8rem;
-   line-height     : 1.5;
-   text-align      : center;
-   color           : #333;
-   background-color: #eee;
-   
+  font-size       : 1.8rem;
+  line-height     : 1.5;
+  text-align      : center;
+  color           : #333;
+  background-color: #eee;
+
 }
 
-main{
-   width           : 80%;
-   margin          : 0 auto;
+main {
+  margin: 0 auto;
 }
 
 #title {
-   font-family: 'Roboto', sans-serif;
-   font-size  : 3.5rem;
-   line-height: 1.2;
-   margin     : 20px 0;
+  font-family: 'Roboto', sans-serif;
+  font-size  : 3.5rem;
+  line-height: 1.2;
+  margin     : 20px 0;
 }
 
 #img-div {
-   margin          : 30px;
-   padding         : 10px;
-   background-color: #fff;
+  background-color: #fff;
 }
 
 #image {
-   max-width: 100%;
-   display  : block;
-   height   : auto;
-   margin   : 0 auto;
+  max-width: 100%;
+  display  : block;
+  height   : auto;
+  margin   : 0 auto;
 }
 
 #img-caption {
-   margin   : 15px 0 5px 0;
-   font-size: 1.4rem;
+  margin   : 15px 0 5px 0;
 }
 
 #tribute-info {
-   margin: 10px auto;
-   width : 60%;
+  margin: 10px auto;
+  width : 60%;
 }
 
 h2 {
-   margin     : 20px 0;
-   display    : block;
-   font-size  : 2.5rem;
-   font-weight: bold;
-   font-family: 'Roboto', sans-serif;
+  margin     : 20px 0;
+  display    : block;
+  font-size  : 2.5rem;
+  font-weight: bold;
+  font-family: 'Roboto', sans-serif;
 }
 
 p {
-   text-align : justify;
-   font-weight: normal;
+  text-align : justify;
+  font-weight: normal;
 }
 
 .img-marriage {
-   width : 300px;
-   margin: 30px auto 0 auto;
+  width : 300px;
+  margin: 30px auto 0 auto;
 }
 
 .curious-fact {
-   margin          : 20px 0;
-   background-color: #fff;
+  margin          : 20px 0;
+  background-color: #fff;
 }
 
 .menction {
-   font-weight: bold;
+  font-weight: bold;
 }
 
 .img-Solvay-Conference {
-   max-width: 100%;
-   display  : block;
-   height   : auto;
-   margin   : 0 auto;
+  max-width: 100%;
+  display  : block;
+  height   : auto;
+  margin   : 0 auto;
 }
 
 footer {
-   display: flex;
-   flex-direction: row;
-   flex-wrap: wrap;
-   align-content: center;
-   justify-content: space-evenly;
-   height: 70px;
-   background-color: #fff;
+  display         : flex;
+  flex-direction  : row;
+  flex-wrap       : wrap;
+  align-content   : center;
+  justify-content : space-evenly;
+  height          : 70px;
+  background-color: #fff;
 }
 
 
 @media (max-width: 450px) {
 
-   body {
-      width: 100%;
-   }
+  body {
+    width: 100%;
+  }
 
-   #tribute-info {
-      padding: 10px;
-      width  : 100%;
-   }
+  #tribute-info {
+    padding: 10px;
+    width  : 100%;
+  }
+}
+
+@media (min-width: 600px) {
+  main {
+    width: 80%;
+  }
+
+  #img-div {
+    margin : 30px;
+    padding: 10px;
+  }
 }
