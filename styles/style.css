@@ -18,8 +18,11 @@ body {
 
 }
 
-main {
-  margin: 0 auto;
+header{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  height: 100vh;
 }
 
 #title {
@@ -31,17 +34,22 @@ main {
 
 #img-div {
   background-color: #fff;
+  margin: 0 auto;
+  width: 100%;
 }
 
 #image {
-  max-width: 100%;
+  width: 100%;
   display  : block;
-  height   : auto;
-  margin   : 0 auto;
+  margin   : 5px auto;
 }
 
 #img-caption {
   margin   : 15px 0 5px 0;
+}
+
+main {
+  margin: 0 auto;
 }
 
 #tribute-info {
@@ -106,13 +114,25 @@ footer {
   }
 }
 
-@media (min-width: 600px) {
+@media (min-width: 768px) {
+  
+  header{
+    display: block;
+    margin: 0 auto;
+  }
+
+  #img-div{
+    width: 80%;
+    margin-top: 10vh;
+  }
+
+  #image{
+    padding-top: 5%;
+    width: 80%;
+  }
+
   main {
     width: 80%;
   }
 
-  #img-div {
-    margin : 30px;
-    padding: 10px;
-  }
 }
