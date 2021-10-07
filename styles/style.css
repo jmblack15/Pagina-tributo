@@ -1,3 +1,12 @@
+:root {
+  --links     : #D6C3B5;
+  --color1    : #9E997B;
+  --color2    : #5B5E4A;
+  --article   : #3B3D30;
+  --background: #192320;
+  --text      : #e0c5bc;
+}
+
 * {
   margin    : 0;
   padding   : 0;
@@ -6,12 +15,13 @@
 
 html {
   font-size  : 62.5%;
-  font-family: 'Times New Roman', Times, serif;
+  font-family: 'Gideon Roman', cursive;
+  font-weight: 500;
 }
 
 a {
   text-decoration: none;
-  color          : blueviolet;
+  color          : var(--links);
   font-weight    : bold;
 }
 
@@ -19,8 +29,8 @@ body {
   font-size       : 1.8rem;
   line-height     : 1.5;
   text-align      : center;
-  color           : #333;
-  background-color: wheat;
+  color           : var(--text);
+  background-color: var(--background);
 
 }
 
@@ -37,7 +47,6 @@ section h2 {
 }
 
 header {
-  width : 100vw;
   height: 100vh;
 }
 
@@ -50,9 +59,8 @@ header {
   display         : flex;
   flex-direction  : column;
   justify-content : space-evenly;
-  width           : 100%;
   height          : 80%;
-  background-color: rgba(245, 245, 245, 0.808);
+  background-color: var(--color2);
 }
 
 #image {
@@ -82,14 +90,28 @@ main {
 
 footer {
   display         : flex;
-  flex-wrap       : wrap;
+  flex-direction  : column;
   justify-content : center;
-  background-color: white;
+  background-color: var(--color1);
+  color           : var(--background);
 }
 
 footer div {
   width : 100%;
   border: 1px solid black;
+}
+
+
+@media (min-width: 630px) {
+  .img-conference {
+    display: block;
+    margin : 10px auto;
+  }
+
+  footer {
+    flex-direction: row;
+  }
+
 }
 
 @media (min-width: 700px) {
@@ -104,17 +126,23 @@ footer div {
   }
 
   #tribute-info {
-    width     : 80%;
+    width           : 80%;
+    max-width       : 850px;
+    margin          : 0 auto;
+    border          : 1px solid black;
+    box-shadow      : 0px 0px 20px 0px rgba(0, 0, 0, 0.75);
+    background-color: var(--article);
+    border-radius   : 15px;
+  }
+
+  .curious-fact {
+    width : 90%;
+    margin: 20px auto;
+  }
+
+  .curious-fact section {
     margin    : 0 auto;
-    border    : 1px solid black;
-    box-shadow: 0px 0px 20px 0px rgba(0,0,0,0.75);
-    background-color: rgba(218, 180, 110, 0.747);
+    width     : 90%;
+    text-align: center;
   }
-
-  .img-conference {
-    display: block;
-  }
-
-
-
 }
